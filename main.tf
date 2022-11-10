@@ -4,7 +4,6 @@ provider "aws" {
   secret_key = ""
 }
 
-
 data "aws_ami" "ubuntu" {
     most_recent = true
 
